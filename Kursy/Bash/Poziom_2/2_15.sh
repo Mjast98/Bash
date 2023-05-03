@@ -35,5 +35,8 @@ type man # <-wyswietla lokalizacje danego polecenia
 echo $home
 echo ~
 echo ~+ # <- wyswietla obecny katalog
+# czemu echo ~- mi nie dziala ?
+echo `pwd`
+
 
 
