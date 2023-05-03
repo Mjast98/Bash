@@ -15,7 +15,22 @@ declare -p var2
 declare +i var2
 declare -p var2
 echo $var2
-expr $var2 + 10
+declare -i var2
+var2="Ala"
+echo $var2
+declare -p var2
+declare +i var2
+declare -p var2
+var2="Ala"
+echo $var2
+declare -r var3="22"
+expr $var3 + 22
+var3="33"
+# nie dam rady zmienic bo jest -r <- read only
+readonly var4="55"
+expr $var4 + 22
+var4="66"
+
 
 
 
