@@ -4,8 +4,10 @@ echo "==============================================="
 echo "Czytanie plikow, IFS i ograniczenia"
 echo "==============================================="
 file=./4_1_user_info.txt
-IFS="|"
+IFS="|" # <- tutaj ustalamy w jakich miejscach skrypt ma podzielic plik txt
 while read -r name surname address city;do
+# -r ignoruje backslach i escapes -> sekwecji specjalnych 
+# znakow backslash+znak np: \n \t \\ \" \'
     echo "Pan/Pani: $name"
     echo "Nazwisko: $surname"
     echo "Adres Zamieszkania: $address"
