@@ -3,13 +3,11 @@ clear
 echo "==============================================="
 echo "Operator Case"
 echo "==============================================="
-echo "Wybierz: "
-select i in A|a B|b C|c Exit; do
-    case $i in
-        "A") echo "Wybrales A" ;;
-        "B") echo "Wybrales B" ;;
-        "C") echo "Wybrales C" ;;
-        "Exit" ) echo; exit;;
-        *) echo "Nic nie wybrales";;
-    esac
-done
+echo -n "Wybierz X/x Y/y Z/z: "
+read zmienna
+case $zmienna in
+    X|x) echo "Wybrales X/x" ;;
+    Y|y) echo "Wybrales Y/y" ;;
+    Z|z) echo "Wybrales Z/z" ;;
+    *) echo "Input error";;
+esac
