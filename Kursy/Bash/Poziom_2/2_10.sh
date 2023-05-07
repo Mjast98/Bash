@@ -66,4 +66,3 @@ echo "Post dekrementacja"
 #najpierw wyswietlany jest wynik a pozniej wartosc jest odejmowana
 wynik=$(( x-- ))
 echo "10. $x = $wynik"
-

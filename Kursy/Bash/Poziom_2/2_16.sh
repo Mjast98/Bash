@@ -30,8 +30,3 @@ var3="33"
 readonly var4="55"
 expr $var4 + 22
 var4="66"
-
-
-
-
-

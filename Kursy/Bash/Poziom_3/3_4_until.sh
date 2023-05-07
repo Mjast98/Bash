@@ -10,3 +10,6 @@ until [ $licznik -lt 10 ]; do
     (( licznik-- ))
 done
 echo "bonus: $licznik"
+
+# while wykonuje sie dopoki isnieje prawda
+# a petla untill wykonuje sie dopoki istnieje falsz
