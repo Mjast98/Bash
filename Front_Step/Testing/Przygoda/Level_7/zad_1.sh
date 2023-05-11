@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 NEWARRAY=(3 5 6 8 9)
 PARZYSTE=()
 NIEPARZYSTE=()
@@ -11,5 +12,11 @@ do
     fi
 done
 echo ${NIEPARZYSTE[*]}
+echo ${NIEPARZYSTE[0]}
+echo ${NIEPARZYSTE[1]}
 echo ${PARZYSTE[*]}
+tab=()
+tab+="ala"
+tab+="beata"
+echo ${tab[1]}
 
