@@ -7,6 +7,7 @@ while [ $licznik -ge 5 ]; do
     (( licznik-- ))
 done
 echo "tablica TABLICA zawiera zmienne:"
-for ((i=0; i<${TABLICA[@]}; i++)) do
-    echo -n "${TABLICA[i]}, "
-done
+przecinek=""
+i=0
+echo ${TABLICA[0]}
+#while [ i -lt ${TABLICA[@]}]
