@@ -3,11 +3,9 @@ clear
 licznik=15
 TABLICA=()
 while [ $licznik -ge 5 ]; do
-    TABLICA+=$licznik
+    TABLICA+=("$licznik")
     (( licznik-- ))
 done
 echo "tablica TABLICA zawiera zmienne:"
-przecinek=""
-i=0
-echo ${TABLICA[0]}
+echo ${TABLICA[*]}
 #while [ i -lt ${TABLICA[@]}]

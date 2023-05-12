@@ -3,6 +3,6 @@
 NEWARRAY=()
 for ((i=1; i<=10; i++))
 do
-    NEWARRAY+=$i
+    NEWARRAY+=("$i")
 done
 echo ${NEWARRAY[*]}
