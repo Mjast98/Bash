@@ -12,3 +12,5 @@ if [ $number -eq 0 ] || [ $number -eq 10 ]; then
 elif [ $number -ge 5 ] && [ $number -le 20 ]; then
     echo "Liczba: $number jest wieksza lub rowna 5 oraz mniejsza badz rowna 20"
 fi
+
+

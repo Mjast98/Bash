@@ -6,3 +6,4 @@ do
     NEWARRAY+=("$i")
 done
 echo ${NEWARRAY[*]}
+

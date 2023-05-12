@@ -13,3 +13,5 @@ echo "bonus: $licznik"
 
 # while wykonuje sie dopoki isnieje prawda
 # a petla untill wykonuje sie dopoki istnieje falsz
+
+
