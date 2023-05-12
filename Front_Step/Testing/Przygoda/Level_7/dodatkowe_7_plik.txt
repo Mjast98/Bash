@@ -1,0 +1,7 @@
+Alicja|Borat|4|Kot
+Adam|Nowak|2|Pies
+Piotr|Radosny|1|Papuga
+Mateusz|Zabawny|2|Rybka
+Marlena|Czekaj|1|Kot
+Bartosz|Powazny|1|Pies
+Ewa|Samotna|11|Kot
