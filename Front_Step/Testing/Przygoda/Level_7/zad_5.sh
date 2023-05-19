@@ -9,3 +9,4 @@ done
 echo "tablica TABLICA zawiera zmienne:"
 echo ${TABLICA[*]}
 #while [ i -lt ${TABLICA[@]}]
+echo ${TABLICA[20]}
