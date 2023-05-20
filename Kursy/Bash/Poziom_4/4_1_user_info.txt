@@ -1,4 +1,4 @@
-Piotr|Koska|ul. Wolności 23/21|Szczecin
-Łukasz|Flak|ul. Linux 22/1|Szczecin
-Monika|Ładna|ul. Windows|Szczecin
-Tomasz|Pomaga|ul. Nieciekawa|Szczecin
+Robert|Frontowski|ul. Wolności 23/21|Warszawa
+Antek|Kowalski|ul. Linux 22/1|Warszawa
+Marysia|Ładna|ul. Windows|Kielce
+Patryk|Pomaga|ul. Nieciekawa|Krakow

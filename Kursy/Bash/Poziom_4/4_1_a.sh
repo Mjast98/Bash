@@ -22,3 +22,4 @@ cat 4_1_user_info.txt | while read -r name surname address city; do
     echo -e "Zapraszam do odwiedzenia miasta ${city}.\nZ wyrazami szacunku $name ${surname}."
     echo ""
 done
+

@@ -2,10 +2,11 @@
 echo "Podane Liczby: $@"
 for liczba in $@
 do
-    if [ $((liczba % 2)) -eq 0 ]; then
-        echo "$liczba nieparzysta"
+    if [ $liczba -eq 0 ]; then
+        echo "$liczba "
     else
-        echo "$liczba parzysta"
+        echo "$liczba nie"
     fi
 done
-echo "Koniec podzialu"
+echo "Koniec"
+
