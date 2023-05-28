@@ -1,5 +1,6 @@
 #!/bin/bash
-echo $@
-echo $#
-echo $?
-echo `date`
+for k in $@; do
+WYNIK="$k $WYNIK"
+done 
+echo $WYNIK \
+echo $0
