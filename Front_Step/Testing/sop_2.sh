@@ -2,3 +2,4 @@
 echo $@
 echo $#
 echo $?
+echo `date`
