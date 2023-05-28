@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo -n "Wybierz gracza a) Alias b) Bit c) Centyl: "
 read player
 nazwa=""

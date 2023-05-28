@@ -7,3 +7,4 @@ else
     echo "randomNum=${randomNum} i nie miesci sie w zakresie"
 fi
 
+

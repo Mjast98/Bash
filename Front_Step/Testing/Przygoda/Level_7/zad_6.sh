@@ -7,3 +7,4 @@ until [ $licznik -le 4 ]; do
 done
 echo "tablica TABLICA zawiera zmienne:"
 echo ${TABLICA[*]}
+

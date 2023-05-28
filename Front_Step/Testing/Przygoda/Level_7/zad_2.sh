@@ -14,3 +14,4 @@ done
 echo "Tablica NEWARRAY: ${NEWARRAY[*]}"
 echo "Tablica PARZYSTE: ${PARZYSTE[*]}"
 echo "Tablica NIEPARZYSTE: ${NIEPARZYSTE[*]}"
+
